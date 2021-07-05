@@ -2,5 +2,8 @@
  between 1500 and 2700 (both included).'''
 
 for i in range(1500,2701):
-    if i//7 and i%5==0:
-        return""
+    sum=0
+    if i%5==0 and i%7==0:
+        print(i)
+
+
